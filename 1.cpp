@@ -30,3 +30,30 @@ int main() {
 
     return 0;
 }
+
+
+
+// without function:
+
+// #include <iostream>
+// #include <vector>
+// using namespace std;
+
+// int main() {
+//     vector<int> nums = {1, 2, 3, 4}; // Example input
+
+//     vector<int> result;
+//     int sum = 0;
+
+//     for (auto x : nums) {
+//         sum += x;
+//         result.push_back(sum);
+//     }
+
+//     cout << "Running Sum: ";
+//     for (int x : result)
+//         cout << x << " ";
+//     cout << endl;
+
+//     return 0;
+// }
